@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow-x: hidden;
+}
+/* fonts */
+.one-regular {
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* end fonts */
+
+/* color */
+.gradient-color {
+    background: -webkit-linear-gradient(900deg, #f10ac6, #2300e8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/* color */
+
+/* navbar */
+.btn {
+    box-shadow: rgba(0, 229, 255, 0.384) 5px 5px 10px;
+}
+.btn:hover {
+    box-shadow: rgba(0, 229, 255, 0.856) 5px 5px 10px;
+}
+
+.Quick-selection ul li {
+    list-style-type: none;
+    left: 25;
+}
+
+/* navbar */
+
+/* quick-bar */
+#quick-bar {
+    box-shadow: rgba(0, 229, 255, 0.664) 3px 3px 10px;
+    background: linear-gradient(135deg, rgba(171, 170, 170, 0.2), rgb(6, 6, 6));
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    top: 15%;
+}
+#quick-bar a {
+    color: #02b3e4;
+}
+.quick-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 20px;
+    background: linear-gradient(105deg, rgb(0, 0, 0), rgba(255, 255, 255, 0.2));
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+}
+@media (max-width: 991.5px) {
+    .nav-item a {
+        box-shadow: rgba(0, 229, 255, 0.384) 3px 3px 10px;
+    }
+}
+
+/* End quick-bar */
+
+/* skills */
+#skill-img {
+    height: 240px;
+    width: 370px;
+    box-shadow: rgba(0, 229, 255, 0.384) 3px 3px 10px;
+    object-fit: cover;
+}
+
+#pro1 {
+    animation: load1 5s normal forwards;
+    background-color: #02b3e4;
+}
+@keyframes load1 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 25;
+    }
+}
+
+#pro2 {
+    animation: load2 5s normal forwards;
+    background-color: #02b3e4;
+}
+@keyframes load2 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 60;
+    }
+}
+#pro3 {
+    animation: load3 5s normal forwards;
+    background-color: #02b3e4;
+}
+@keyframes load3 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75;
+    }
+}
+#pro4 {
+    animation: load4 5s normal forwards;
+    background-color: #02b3e4;
+}
+@keyframes load4 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 75;
+    }
+}
+#pro5 {
+    animation: load5 5s normal forwards;
+    background-color: #02b3e4;
+}
+@keyframes load5 {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 90;
+    }
+}
+
+/* service */
+.card {
+    box-shadow: rgba(0, 229, 255, 0.384) 5px 5px 10px;
+    background: linear-gradient(
+        135deg,
+        rgba(99, 98, 98, 0.158),
+        rgb(23, 23, 23)
+    );
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: rgba(0, 229, 255, 0.751) 5px 5px 10px;
+}
+/* End service */
+
+/* qualification */
+#qual-bar {
+    width: 2px;
+    position: relative;
+}
+
+/* qualification */

@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Tony kollannur</title>
+        <link rel="web icon" href="assets/images/icons/web icon.png" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="assets/css/style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script
+            defer
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+            crossorigin="anonymous"
+        ></script>
+        <script defer src="/JavaScript/general.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </head>
+    <body class="bg-black">
+        <!-- navbar -->
+        <nav class="navbar navbar-dark m-0 p-4 pmd-0" id="nav-wave">
+            <div class="container-fluid">
+                <p class="logo-name text-white one-regular m-0">
+                    <a
+                        class="text-decoration-none text-white fs-2"
+                        data-aos="zoom-out"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000"
+                        href=""
+                        >PORTFOLIO</a
+                    >
+                </p>
+                <div class="nav-links d-none d-lg-block">
+                    <ul
+                        class="navbar-nav me-auto mb-2 mb-lg-0 d-flex flex-row"
+                        data-aos="zoom-out"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="1000"
+                    >
+                        <li class="nav-item pe-5">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#nav-wave"
+                                >Home</a
+                            >
+                        </li>
+
+                        <li class="nav-item pe-5">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#skills"
+                                >Skills</a
+                            >
+                        </li>
+                        <li class="nav-item pe-5">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#services"
+                                >Services</a
+                            >
+                        </li>
+                        <li class="nav-item pe-5">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#qualifications"
+                                >Qualification</a
+                            >
+                        </li>
+                        <li class="nav-item pe-5">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#works"
+                                >Works</a
+                            >
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link active"
+                                aria-current="page"
+                                href="#contact"
+                                >Contact</a
+                            >
+                        </li>
+                    </ul>
+                </div>
+                <button
+                    class="navbar-toggler d-lg-none"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasDarkNavbar"
+                    aria-controls="offcanvasDarkNavbar"
+                    aria-label="Toggle navigation"
+                >
+                    <span><i class="fa-solid fa-bars text-white"></i></span>
+                </button>
+                <div
+                    class="offcanvas offcanvas-end text-bg-dark d-lg-none"
+                    tabindex="-1"
+                    id="offcanvasDarkNavbar"
+                    aria-labelledby="offcanvasDarkNavbarLabel"
+                    style="width: 300px"
+                >
+                    <div class="offcanvas-header">
+                        <h5
+                            class="offcanvas-title"
+                            id="offcanvasDarkNavbarLabel"
+                        >
+                            Menu
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close btn-close-white"
+                            data-bs-dismiss="offcanvas"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul
+                            class="navbar-nav justify-content-end flex-grow-1 pe-3 bg-transparent"
+                        >
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active mb-2 ps-3 rounded text-info border border-2 border-info"
+                                    aria-current="page"
+                                    href="#"
+                                    >Home</a
+                                >
+                            </li>
+
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active mb-2 ps-3 rounded text-info border border-2 border-info"
+                                    aria-current="page"
+                                    href="#skills"
+                                    >Skills</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active mb-2 ps-3 rounded text-info border border-2 border-info"
+                                    aria-current="page"
+                                    href="#services"
+                                    >Services</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active mb-2 ps-3 rounded text-info border border-2 border-info"
+                                    aria-current="page"
+                                    href="#qualifications"
+                                    >Qualification</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active mb-2 ps-3 rounded text-info border border-2 border-info"
+                                    aria-current="page"
+                                    href="#works"
+                                    >Works</a
+                                >
+                            </li>
+                            <li class="nav-item">
+                                <a
+                                    class="nav-link active mb-2 ps-3 rounded text-info border border-2 border-info"
+                                    aria-current="page"
+                                    href="#contact"
+                                    >Contact</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End navbar -->
+
+        <!-- quick bar -->
+        <div
+            class="z-1 d-none position-fixed text-white h-50 p-2 m-0 mt-5 ms-4 rounded border border-1 border-info d-lg-flex flex-column justify-content-around align-items-center"
+            id="quick-bar"
+        >
+            <div
+                class="quick-links"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                data-bs-title="Home"
+            >
+                <a href="#nav-wave"><i class="fa-solid fa-house"></i></a>
+            </div>
+            <div
+                class="quick-links"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                data-bs-title="Skills"
+            >
+                <a href="#skills"><i class="fa-solid fa-gears"></i></a>
+            </div>
+            <div
+                class="quick-links"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                data-bs-title="services"
+            >
+                <a href="#services"
+                    ><i class="fa-solid fa-bell-concierge"></i
+                ></a>
+            </div>
+            <div
+                class="quick-links"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                data-bs-title="qualifications & experience"
+            >
+                <a href="#qualifications"
+                    ><i class="fa-solid fa-user-plus"></i
+                ></a>
+            </div>
+            <div
+                class="quick-links"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                data-bs-title="works"
+            >
+                <a href="#works"><i class="fa-solid fa-briefcase"></i></a>
+            </div>
+
+            <div
+                class="quick-links"
+                data-bs-toggle="tooltip"
+                data-bs-placement="right"
+                data-bs-title="Contact"
+            >
+                <a href="#contact"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+        <!-- quick bar -->
+
+        <!-- profile section -->
+        <section class="container text-white" style="margin-top: 7rem">
+            <div class="row ps-lg-5 p-0">
+                <div
+                    class="col-md-6 col-sm-12 p-0 d-flex align-items-center pt-md-5 pb-5 pb-md-0"
+                >
+                    <img
+                        data-aos="zoom-in-up"
+                        data-aos-easing="ease-out-cubic"
+                        data-aos-duration="500"
+                        class="w-100"
+                        src="assets/images/other/dp.png"
+                        alt=""
+                    />
+                </div>
+                <div
+                    data-aos="fade-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1000"
+                    class="col-md-6 col-sm-12 d-flex align-items-center flex-column justify-content-end mb-md-5"
+                >
+                    <p class="fs-4 fw-bold m-0">Hello i'm,</p>
+                    <p class="fs-1 mb-1 one-regular gradient-color">
+                        TONY KOLLANNUR
+                    </p>
+                    <p class="fs-5 fw-bold">Python Full Stack Developer</p>
+                    <div class="pro-btns">
+                        <a href=""
+                            ><button
+                                type="button"
+                                class="btn btn-outline-info me-3 fw-bold"
+                                data-aos="flip-left"
+                                data-aos-easing="ease-in"
+                                data-aos-duration="500"
+                            >
+                                My Work
+                            </button></a
+                        >
+                        <a href="">
+                            <button
+                                type="button"
+                                class="btn btn-outline-info fw-bold"
+                                data-aos="flip-left"
+                                data-aos-easing="ease-in"
+                                data-aos-duration="500"
+                            >
+                                Hire Me
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End profile section -->
+
+        <!-- skills -->
+        <section
+            class="container mt-md-5"
+            style="height: auto; width: 100%"
+            id="skills"
+        >
+            <div class="row h-50 pt-md-4">
+                <div
+                    class="col-md-6 d-flex align-items-center justify-content-center p-0 pt-5 pb-4 pb-md-0"
+                >
+                    <div
+                        class="img-div rounded-5 border border-1 border-info mb-4"
+                        data-aos="flip-left"
+                        id="skill-img"
+                    >
+                        <img
+                            class="rounded-5 h-100 w-100"
+                            src="assets/images/other/dp.png"
+                            alt=""
+                        />
+                    </div>
+                </div>
+                <div class="col-md-6 px-5 px-md-0 ps-md-5 ps-lg-0 text-white">
+                    <div
+                        class="img-div w-100 d-flex flex-column align-items-start"
+                        data-aos="flip-left"
+                    >
+                        <p class="fw-bold fs-5">My Skills</p>
+                        <label for="">JavaScript</label>
+                        <div
+                            class="progress bg-light mb-3 w-100"
+                            role="progressbar"
+                            aria-label="Basic example"
+                            aria-valuenow="25"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                        >
+                            <div
+                                class="progress-bar"
+                                id="pro1"
+                                style="width: 25%"
+                            >
+                                25%
+                            </div>
+                        </div>
+                        <label for="">bootstrap</label>
+                        <div
+                            class="progress bg-light mb-3 w-100"
+                            role="progressbar"
+                            aria-label="Basic example"
+                            aria-valuenow="50"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                        >
+                            <div
+                                class="progress-bar"
+                                id="pro2"
+                                style="width: 60%"
+                            >
+                                60%
+                            </div>
+                        </div>
+                        <label for="">html</label>
+                        <div
+                            class="progress bg-light mb-3 w-100"
+                            role="progressbar"
+                            aria-label="Basic example"
+                            aria-valuenow="75"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                        >
+                            <div
+                                class="progress-bar"
+                                id="pro3"
+                                style="width: 75%; background-color: #02b3e4"
+                            >
+                                75%
+                            </div>
+                        </div>
+                        <label for="">css</label>
+                        <div
+                            class="progress bg-light mb-3 w-100"
+                            role="progressbar"
+                            aria-label="Basic example"
+                            aria-valuenow="100"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                        >
+                            <div
+                                class="progress-bar"
+                                id="pro4"
+                                style="width: 75%; background-color: #02b3e4"
+                            >
+                                75%
+                            </div>
+                        </div>
+                        <label for="">Python</label>
+                        <div
+                            class="progress bg-light mb-3 w-100"
+                            role="progressbar"
+                            aria-label="Basic example"
+                            aria-valuenow="100"
+                            aria-valuemin="0"
+                            aria-valuemax="100"
+                        >
+                            <div
+                                class="progress-bar"
+                                id="pro5"
+                                style="width: 90%; background-color: #02b3e4"
+                            >
+                                90%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row h-25 pt-5 pb-4">
+                <div
+                    class="butns d-flex align-items-center justify-content-center h-100 w-100"
+                >
+                    <a
+                        href="assets/images/other/Tony cv.jpg"
+                        download
+                        class="btn btn-outline-info me-3 dwnld-btn fw-bold"
+                        data-aos="flip-left"
+                        data-aos-easing="ease-in"
+                        data-aos-duration="500"
+                        data-aos-anchor-placement="top-bottom"
+                        >Download CV</a
+                    >
+                    <a
+                        href="#contact"
+                        class="btn btn-outline-info dwnld-btn fw-bold"
+                        data-aos="flip-left"
+                        data-aos-easing="ease-in"
+                        data-aos-duration="500"
+                        data-aos-anchor-placement="top-bottom"
+                        >Contact Me</a
+                    >
+                </div>
+            </div>
+            <div
+                class="row h-25 text-center text-white ps-5 pe-5"
+                data-aos="flip-up"
+            >
+                <p class="fs-2 fw-bold p-0 m-0">About Me</p>
+                <p align="justify" class="p-0 m-0 mb-5">
+                    Hey there! I'm a passionate full stack web developer with a
+                    solid grasp of Python, HTML, CSS, JavaScript, and Bootstrap.
+                    I thrive in collaborative settings, where my excellent
+                    teamwork skills shine through. My top priority is ensuring
+                    that tasks are completed efficiently and to the highest
+                    standards possible. I take my responsibilities seriously and
+                    always strive to deliver exceptional results.
+                </p>
+            </div>
+        </section>
+        <!-- skills -->
+
+        <!-- services -->
+        <section
+            class="container d-flex justify-content-center flex-column align-items-center p-5"
+            id="services"
+        >
+            <p class="fs-2 fw-bold text-info gradient-color">
+                What Can I Do Best?
+            </p>
+            <div class="row w-100">
+                <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div
+                        class="card text-center text-white mb-5 pt-3"
+                        data-aos="fade-down-right"
+                        data-aos-easing="ease-in"
+                        data-aos-duration="500"
+                        style="width: 18rem"
+                    >
+                        <i class="fa-solid fa-laptop fs-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Web Design</h5>
+                            <p class="card-text" align="justify">
+                                Proficient in creating visually stunning and
+                                user-friendly websites experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div
+                        class="card mb-5 text-center text-white pt-3"
+                        data-aos="flip-left"
+                        data-aos-easing="ease-in"
+                        data-aos-duration="500"
+                        style="width: 18rem"
+                    >
+                        <i class="fa-solid fa-mobile-screen fs-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Responsive Design</h5>
+                            <p class="card-text" align="justify">
+                                Specialized in crafting websites that seamlessly
+                                adapt to various screen sizes and devices
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div
+                        class="card mb-5 text-center text-white pt-3"
+                        data-aos="fade-down-left"
+                        data-aos-easing="ease-in"
+                        data-aos-duration="500"
+                        style="width: 18rem"
+                    >
+                        <i class="fa-solid fa-code fs-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Development</h5>
+                            <p class="card-text" align="justify">
+                                Skilled in HTML, CSS, JavaScript, dedicated to
+                                delivering innovative solutions tailored to
+                                client needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div
+                        class="card text-center text-white mb-5 pt-3"
+                        data-aos="fade-up-right"
+                        data-aos-easing="ease-in"
+                        data-aos-duration="500"
+                        style="width: 18rem"
+                    >
+                        <i class="fa-brands fa-slack fs-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Creating Design</h5>
+                            <p class="card-text" align="justify">
+                                Expert in crafting visually appealing designs
+                                that communicate brand identity effectively.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div
+                        class="card mb-5 text-center text-white pt-3"
+                        data-aos="flip-left"
+                        data-aos-easing="ease-in"
+                        data-aos-duration="500"
+                        style="width: 18rem"
+                    >
+                        <i class="fa-solid fa-camera-retro fs-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Retina Ready</h5>
+                            <p class="card-text" align="justify">
+                                creating high-resolution designs for optimal
+                                clarity and visual impact on retina displays.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 d-flex justify-content-center">
+                    <div
+                        class="card mb-5 text-center text-white pt-3"
+                        data-aos="fade-up-left"
+                        data-aos-easing="ease-in"
+                        data-aos-duration="500"
+                        style="width: 18rem"
+                    >
+                        <i class="fa-solid fa-globe fs-1 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text" align="justify">
+                                Proficient in front-end and creating clean,
+                                efficient code for dynamic, user-friendly
+                                websites.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- services -->
+
+        <!-- qualifications & Experience -->
+        <section
+            class="container-fluid p-5 p-0 py-4 d-flex mb-5 flex-column justify-content-evenly bg-dark"
+            id="qualifications"
+        >
+            <div
+                class="row w-100 h-100 ps-0 ms-0 ps-md-5 ms-md-5"
+                data-aos="flip-up"
+                data-aos-duration="1500"
+            >
+                <p
+                    class="fs-4 fw-bold text-white p-0 mb-2 ms-4 ms-md-1 ms-lg-4"
+                >
+                    Qualifications
+                </p>
+            </div>
+            <div class="row w-100 px-md-5">
+                <div class="col-1 d-flex justify-content-center">
+                    <div
+                        class="position-relative bg-secondary"
+                        id="qual-bar"
+                    ></div>
+                </div>
+                <div class="col-10" data-aos="flip-up" data-aos-duration="1000">
+                    <div>
+                        <p class="fw-bold text-white pt-2 p-0 m-0">
+                            Bachelor Of Computer Application (2020-2023)
+                        </p>
+                        <p class="text-secondary m-0 text-light">
+                            Bharthiar University
+                        </p>
+                        <p class="text-secondary">
+                            A Bachelor of Computer Applications (BCA) degree is
+                            an undergraduate program that focuses on computer
+                            science, programming, software development, and
+                            information technology.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="fw-bold text-white pt-2 p-0 m-0">
+                            Plus Two (2012-2014)
+                        </p>
+                        <p class="text-secondary m-0 text-light">
+                            GHSS Punkunnam
+                        </p>
+                        <p class="text-secondary">
+                            "Plus two commerce" refers to the high school
+                            education program that focuses on commerce. It
+                            prepares students for careers in fields like
+                            accounting, finance, business management, and
+                            economics.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="row w-100 h-100 ps-0 ms-0 ps-md-5 ms-md-5"
+                data-aos="flip-up"
+                data-aos-duration="1500"
+            >
+                <p
+                    class="fs-4 fw-bold text-white p-0 mb-2 ms-4 ms-md-1 ms-lg-4"
+                >
+                    Experience
+                </p>
+            </div>
+            <div class="row w-100 px-md-5">
+                <div class="col-1 d-flex justify-content-center">
+                    <div
+                        class="position-relative bg-secondary"
+                        id="qual-bar"
+                    ></div>
+                </div>
+                <div class="col-10" data-aos="flip-up" data-aos-duration="1000">
+                    <div>
+                        <p class="fw-bold text-white pt-2 p-0 m-0">
+                            Python + Django Full Stack Developer (Intern)
+                            (Present)
+                        </p>
+                        <p class="text-secondary m-0 text-light">
+                            Luminar Technolab, Kochi
+                        </p>
+                        <p class="text-secondary">
+                            Python Django full stack web development involves
+                            using Django framework for backend and frontend
+                            technologies like HTML, CSS, JavaScript for dynamic
+                            web applications.
+                        </p>
+                    </div>
+                    <div>
+                        <p class="fw-bold text-white pt-2 p-0 m-0">
+                            Data Entry Clerk (2023- 6 Months)
+                        </p>
+                        <p class="text-secondary m-0 text-light">
+                            Thrissur Muncipal Corporation
+                        </p>
+                        <p class="text-secondary">
+                            As a data entry clerk, I facilitated online tax
+                            payments by accurately entering information into the
+                            government's database for record-keeping and
+                            compliance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- qualifications & Experience -->
+
+        <!-- works -->
+        <div
+            class="container px-5 d-flex justify-content-center flex-column"
+            id="works"
+        >
+            <div class="row">
+                <p class="fs-1 fw-bold text-white m-0 mt-4">My Works</p>
+            </div>
+            <div class="row d-flex justify-content-center h-75 w-100 m-0 pt-3">
+                <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                >
+                    <div
+                        class="card text-white mb-5"
+                        data-aos="flip-right"
+                        data-aos-duration="1300"
+                        style="width: 15rem"
+                    >
+                        <img src="/assets/images/other/first html.png" alt="" />
+                        <div class="card-body">
+                            <h5 class="card-title">Travel Website</h5>
+                            <p
+                                class="card-text"
+                                align="justify"
+                                style="font-size: 13px"
+                            >
+                                This was my first website website utilizing
+                                HTML. The site boasts a simplistic design with
+                                sections dedicated to destinations, travel
+                                packages, and contact information. Emphasis on
+                                clean layout and intuitive navigation. no css is
+                                used
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                >
+                    <div
+                        class="card text-white mb-5"
+                        data-aos="flip-right"
+                        data-aos-duration="1300"
+                        style="width: 15rem"
+                    >
+                        <img src="/assets/images/other/netflix.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Netflix Website</h5>
+                            <p
+                                class="card-text"
+                                align="justify"
+                                style="font-size: 13px"
+                            >
+                                Crafted a Netflix homepage replica using HTML
+                                and CSS. Features include a header with
+                                navigation, a hero section showcasing a
+                                background image or video, and content sections
+                                displaying movie or TV show categories
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                >
+                    <div
+                        class="card text-white mb-5"
+                        data-aos="flip-left"
+                        data-aos-duration="1300"
+                        style="width: 15rem"
+                    >
+                        <img src="/assets/images/other/e-commerce.jpg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Ecommerce Website</h5>
+                            <p
+                                class="card-text"
+                                align="justify"
+                                style="font-size: 13px"
+                            >
+                                Crafted an e-commerce site with HTML, CSS, and
+                                JavaScript for enhanced functionality. Multiple
+                                HTML pages create dynamic browsing. Clicking on
+                                products reveals details, ensuring a seamless
+                                user experience
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center"
+                >
+                    <div
+                        class="card text-white mb-5"
+                        data-aos="flip-left"
+                        data-aos-duration="1300"
+                        style="width: 15rem"
+                    >
+                        <img src="/assets/images/other/portfolio.png" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio Website</h5>
+                            <p
+                                class="card-text"
+                                align="justify"
+                                style="font-size: 13px"
+                            >
+                                Developed a portfolio website utilizing HTML,
+                                CSS, Bootstrap, and JavaScript. Features include
+                                responsive design, interactive elements, and
+                                sleek styling to showcase projects effectively
+                                and enhance user engagement.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- works -->
+
+        <!-- certifications -->
+
+        <!-- certifications -->
+
+        <!-- contact -->
+        <div
+            class="container-fluid my-5 pt-5 d-flex justify-content-center"
+            id="contact"
+        >
+            <div
+                class="contact-wapper w-75 w-lg-50 bg-dark rounded-4 d-flex justify-content-center flex-column align-items-center"
+                data-aos="zoom-out-up"
+            >
+                <div class="row w-100 m-0">
+                    <p
+                        class="fw-bold text-white fs-3 ps-3 pt-3"
+                        data-aos="zoom-in-right"
+                    >
+                        Get In Touch
+                    </p>
+                    <p class="fw-bold text-white text-center">
+                        Call me on +91 7997411285
+                    </p>
+                    <p class="text-white text-center">
+                        tonykollannur111@gmail.com
+                    </p>
+                </div>
+                <div class="row w-100 px-4 mt-3">
+                    <label
+                        for=""
+                        class="text-center text-white fw-bold"
+                        data-aos="zoom-in-right"
+                        >Name *</label
+                    >
+                    <input
+                        type="text"
+                        class="rounded p-2 px-3 border border-none mt-2 bg-light"
+                        placeholder="Your name here"
+                        data-aos="flip-down"
+                        data-aos-duration="1000"
+                    />
+                </div>
+                <div class="row w-100 px-4 mt-3">
+                    <label
+                        for=""
+                        class="text-center text-white fw-bold"
+                        data-aos="zoom-in-left"
+                        >Email *</label
+                    >
+                    <input
+                        type="text"
+                        class="rounded p-2 px-3 border border-none mt-2"
+                        placeholder="Enter your Email"
+                        data-aos="flip-up"
+                        data-aos-duration="1000"
+                    />
+                </div>
+                <div class="row mt-5 mb-5 w-50">
+                    <button
+                        data-aos="zoom-in"
+                        type="button"
+                        class="btn btn-outline-info px-5 py-3 fw-bold"
+                    >
+                        Next
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- contact -->
+
+        <!-- footer -->
+        <div
+            class="container-fluid bg-dark d-flex align-items-center justify-content-center"
+            style="height: 5rem"
+        >
+            <a
+                href="https://www.linkedin.com/in/tony-kollannur-17669825a/"
+                target="_blank"
+                ><i
+                    class="fa-brands fa-linkedin text-white fs-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-title="Linked-in"
+                ></i
+            ></a>
+            <a href="https://github.com/tonykollannur"
+                ><i
+                    class="fa-brands fa-github text-white mx-5 fs-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-title="github"
+                ></i
+            ></a>
+            <a href="https://www.instagram.com/tony_kollannur/" target="_blank"
+                ><i
+                    class="fa-brands fa-instagram fs-2 text-white me-5"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-title="instagram"
+                ></i
+            ></a>
+            <a href="https://web.whatsapp.com/" target="_blank"
+                ><i
+                    class="fa-brands fa-whatsapp text-white fs-2 me-5"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-title="whatsapp"
+                ></i
+            ></a>
+            <a href="https://mail.google.com/mail" target="_blank"
+                ><i
+                    class="fa-regular fa-envelope text-white fs-2"
+                    data-bs-toggle="tooltip"
+                    data-bs-placement="top"
+                    data-bs-title="Mail"
+                ></i
+            ></a>
+        </div>
+        <!-- footer -->
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script src="https://static-bundles.visme.co/forms/vismeforms-embed.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
